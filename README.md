@@ -3,4 +3,4 @@
  
  对应的教程在[我的博客](https://www.pigest.top/2023/ltwtutor-e1/)查看。
 
-  使用方法：替换数据包后输入命令`/reload`、`/function ltw:init`，再输入`function test:mini/koth`即可测试山丘之王小游戏。
+  使用方法：替换数据包后，删除文件`服务端文件夹/world/generated/mini/structures/koth.nbt`，然后输入命令`/reload`、`/function ltw:init`，再输入`function test:mini/koth`即可测试山丘之王小游戏。
