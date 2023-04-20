@@ -1,0 +1,28 @@
+{
+    "parent": "ltw:vs/koth3",
+    "display": {
+      "icon": {
+        "item": "minecraft:pufferfish",
+        "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
+      },
+      "title": {
+        "text": "山丘之霸 · Ω "
+      },
+      "description": [
+        {"text": "【山丘之王】获得 320 能量值\n", "color":"gray"},
+        {"text": "究极隐藏挑战！","color":"dark_gray","italic": true}
+      ],
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "ltw:advancement/bonus_4"
+    },
+    "criteria": {
+      "a":{
+          "trigger": "minecraft:impossible"
+      }
+    }
+  }

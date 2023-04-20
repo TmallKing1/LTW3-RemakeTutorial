@@ -1,0 +1,3 @@
+# 给予击退鱼
+execute as @a[tag=mini_running] at @s if block ~ 9 ~ red_mushroom_block unless data entity @s Inventory[{Slot:8b,id:"minecraft:cod",tag:{game_item:1b,powerful:0b}}] run function mini:koth/game/give_fish
+execute as @a[tag=mini_running] at @s unless block ~ 9 ~ red_mushroom_block unless data entity @s Inventory[{Slot:8b,id:"minecraft:cod",tag:{game_item:1b,powerful:1b}}] run function mini:koth/game/give_fish
